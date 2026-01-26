@@ -12,7 +12,11 @@ st.set_page_config(page_title="Olist AI Dashboard", layout="wide")
 # Load Models
 @st.cache_resource
 def load_models():
-    base_path = 'models/'
+    # 1. Get the directory where app.py is located
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # 2. Construct the full path to the models folder
+    base_path = os.path.join(current_dir, 'models')
     
     # Load NLP Files
     nlp_model = joblib.load(os.path.join(base_path, 'sentiment_model.pkl'))
