@@ -20,8 +20,11 @@ venv/
 *.csv
 *.xlsx
 *.zip
-data/
-!data/sample/
+data/*
+
+# Allow sample / placeholder
+!data/.gitkeep
+!data/sample/.gitkeep
 
 # --- VS Code Settings ---
 .vscode/
