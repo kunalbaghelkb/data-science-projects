@@ -3,7 +3,7 @@
 ## 🚀 Project Overview
 This project analyzes the **Olist E-commerce dataset** (Brazilian marketplace) to optimize supply chain logistics. The goal is to predict delivery times, identify late shipments before they happen, and understand customer sentiment to reduce churn.
 
-**Tech Stack:** Python, Pandas, Scikit-learn, Gradient Boosting, Matplotlib, Seaborn
+**Tech Stack:** Python, Pandas, Scikit-learn, Gradient Boosting, Matplotlib, Seaborn, Streamlit, Deep Translator
 
 ---
 
@@ -57,6 +57,10 @@ This project analyzes the **Olist E-commerce dataset** (Brazilian marketplace) t
    ```bash
    pip install -r requirements.txt
 
+6. Run the Streamlit application
+   ```bash
+   streamlit run app.py
+   
 ---
 
 ## 📈 Future Scope
