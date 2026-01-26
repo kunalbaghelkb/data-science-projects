@@ -30,8 +30,8 @@ data/*
 .vscode/
 
 # --- Models (Optional: Agar file 100MB se badi ho toh ignore karein) ---
-*.pkl
-*.joblib
+# *.pkl
+# *.joblib
 
 # Logs
 *.log
