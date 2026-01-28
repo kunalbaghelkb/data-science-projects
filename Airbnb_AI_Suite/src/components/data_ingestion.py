@@ -58,23 +58,3 @@ class DataIngestion:
             )
         except Exception as e:
             raise CustomException(e, sys)
-
-# if __name__ == "__main__":
-#     # 1. Ingestion Step
-#     obj = DataIngestion()
-#     train_data, test_data = obj.initiate_data_ingestion()
-#     print(f"✅ Ingestion Done!")
-
-#     # 2. Transformation Step
-#     from src.components.data_transformation import DataTransformation
-#     data_transformation = DataTransformation()
-#     train_arr, test_arr, _ = data_transformation.initiate_data_transformation(train_data, test_data)
-#     print(f"✅ Transformation Done! Shape of Train Array: {train_arr.shape}")
-    
-#     # 3. Model Training
-#     from src.components.model_trainer import ModelTrainer
-#     model_trainer = ModelTrainer()
-#     print("Model Training Started (Wait)...")
-#     r2_square = model_trainer.initiate_model_trainer(train_arr, test_arr)
-#     print(f"Model Training Completed! Best R2 Score: {r2_square:.4f}")
-    

@@ -34,8 +34,8 @@ data/*
 catboost_info/
 
 # --- Models (Optional: If file is >100MB then ignore) ---
-artifacts/
-*.pkl
+# artifacts/
+# *.pkl
 *.joblib
 
 # Logs
