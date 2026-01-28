@@ -1,0 +1,23 @@
+pandas
+numpy
+scikit-learn==1.5.2
+matplotlib
+seaborn
+sqlalchemy
+xgboost
+catboost
+lightgbm
+prophet
+tensorflow
+transformers
+sentence-transformers
+langchain
+faiss-cpu
+fastapi
+uvicorn
+plotly
+pytest
+pyYAML
+python-dotenv
+ipykernel
+-e .

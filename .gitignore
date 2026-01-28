@@ -21,6 +21,7 @@ venv/
 *.xlsx
 *.zip
 data/*
+*.db
 
 # Allow sample / placeholder
 !data/.gitkeep
@@ -28,10 +29,20 @@ data/*
 
 # --- VS Code Settings ---
 .vscode/
+.idea/
+
+# CatBoost & XGBoost Cache
+catboost_info/
 
 # --- Models (Optional: Agar file 100MB se badi ho toh ignore karein) ---
-# *.pkl
-# *.joblib
+artifacts/
+*.pkl
+*.joblib
 
 # Logs
 *.log
+
+# Python Package Metadata
+*.egg-info/
+dist/
+build/
