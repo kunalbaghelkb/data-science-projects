@@ -16,7 +16,6 @@ venv/
 *.venv/
 
 # --- Datasets (GitHub doesn't allow huge files > 100MB) ---
-# Hum dataset upload nahi karenge, bas code karenge
 *.csv
 *.xlsx
 *.zip

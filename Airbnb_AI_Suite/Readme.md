@@ -112,6 +112,7 @@ This will ingest data, clean it, train models, and save the best `model.pkl`.
 
 ## 👨‍💻 Author
 **Kunal Baghel**
+
 *Aspiring Data Scientist & AI Engineer*
 
 [LinkedIn](https://linkedin.com/in/kunalbaghelz) | [GitHub](http://github.com/kunalbaghelkb)
