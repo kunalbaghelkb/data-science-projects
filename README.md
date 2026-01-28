@@ -42,7 +42,6 @@ A data-driven approach to optimize delivery performance and customer satisfactio
 * **Viz:** Matplotlib, Seaborn
 
 ---
-<br>
 
 ### 🏠 2. Airbnb AI Suite: Smart Pricing & GenAI
 **Domain:** `Real Estate` | `TravelTech` | `Generative AI`

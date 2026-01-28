@@ -34,7 +34,7 @@ data/*
 # CatBoost & XGBoost Cache
 catboost_info/
 
-# --- Models (Optional: Agar file 100MB se badi ho toh ignore karein) ---
+# --- Models (Optional: If file is >100MB then ignore) ---
 artifacts/
 *.pkl
 *.joblib
